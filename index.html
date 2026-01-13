@@ -1,0 +1,30 @@
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000; /* hides sub-pixel gaps */
+}
+
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  display: block;
+  transform: scale(1.0001); /* prevents thin lines on some browsers */
+}
+</style>
+
+<div class="embed-container">
+  <iframe
+    src="https://momento360.com/e/u/6abe5f51c3e34126ad1fa4066fd26b1a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
